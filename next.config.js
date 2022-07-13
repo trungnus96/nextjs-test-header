@@ -19,6 +19,10 @@ const nextConfig = {
             key: "Cross-Origin-Opener-Policy",
             value: "same-origin",
           },
+          {
+            key: "x-another-custom-header",
+            value: "my other custom header value",
+          },
         ],
       },
     ];
